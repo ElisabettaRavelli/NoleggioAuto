@@ -30,6 +30,11 @@ public class Evento implements Comparable<Evento>{
 	public TipoEvento getTipo() {
 		return tipo;
 	}
+
+	@Override
+	public String toString() {
+		return String.format("tempo=%s, tipo=%s", tempo, tipo);
+	}
 	
 	
 }

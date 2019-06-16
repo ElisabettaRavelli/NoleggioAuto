@@ -11,7 +11,8 @@ public class TestSimulatore {
 		sim.init(15);
 		sim.run();
 		System.out.format("%d clienti totali, di cui %d insoddisfatti\n",
-		sim.getNumeroClientiTotali(), sim.getNumeroClientiInsoddisfatti());
+				sim.getNumeroClientiTotali(),
+				sim.getNumeroClientiInsoddisfatti());
 	}
 
 }

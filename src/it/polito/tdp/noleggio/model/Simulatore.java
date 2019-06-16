@@ -67,6 +67,8 @@ public class Simulatore {
 		while(!queue.isEmpty()) {
 			Evento ev = queue.poll();
 			
+			System.out.println(ev);
+			
 			switch(ev.getTipo()) {
 			
 			case CLIENTE_ARRIVA:
